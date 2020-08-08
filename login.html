@@ -1,0 +1,37 @@
+<html>
+<head> 
+<title>Form Validation</title>
+</head>
+<body>
+<form method="post" name="login">
+Name:<input type="text" name="name"><br>
+Email:<input type="text" name="email"><br>
+Age:<input type="text" name="age"><br>
+<input type="submit" name="submit" value="Submit">
+</form>
+<script language="Vbscript" type="text/vbscript">
+Sub Submit_onclick()
+if len(login.name.value)<2 then
+Msgbox("Entered name is too short!")
+login.name.focus
+login.name.select
+End if
+if Isnumeric(login.name.value)then
+Msgbox("Please  enter valid character!")
+login.name.focus
+login.name.select
+End if
+if instr(login.email.value,"@")=0 OR_
+instr(login.email.value,".")=0 OR_
+len(login.email.value)<7 then
+Msgbox("Please enter valid email")
+End if
+if len(login.age.value)<2 then
+Msgbox("Age entered is invalid")
+End if
+if not Isnumeric(login.age.value)then
+Msgbox("Enter age in digits")
+End if
+</script>
+</body>
+<html>

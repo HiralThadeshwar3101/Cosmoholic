@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=2">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Cosmoholic</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="C:/Users/Kajal/Downloads/font-awesome-4.4.0/css/font-awesome.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Gem style -->
+    <link rel="stylesheet" href="css/product.css">
+    <!-- Gem style -->
+    <script src="js/modernizr.js"></script>
+    <!-- Modernizr -->
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+    <script src="js/index.js"></script>
+    <script src="js/carousel.js"></script>
+
+    <!--scrolling animation-->
+    <script src="js/wow.min.js"></script>
+    <script>
+	new WOW().init();
+	
+		function validation()
+		{
+			var flag=1;
+			var mystring=form1.name.value;
+			if (mystring=="")
+			{
+				alert("name text feild is empty");
+				flag=0;
+				return false;
+			}
+			if(mystring>0||mystring<9)
+			{
+				alert("no numbers allowed in text feild");
+				flag=0;
+				return false;
+			}
+			
+			var land=form1.land.value;
+			if (land=="")
+			{
+				alert("Land text feild is empty");
+				flag=0;
+				return false;
+			}
+			
+			var add=form1.address.value;
+			if (add=="")
+			{
+				alert("Address text feild is empty");
+				flag=0;
+				return false;
+			}
+			
+
+			var state=form1.state.value;
+			if (state=="")
+			{
+				
+				flag=0;
+				return false;
+			}
+			var city=form1.city.value;
+			if (city=="")
+			{
+				alert("City text feild is empty");
+				flag=0;
+				return false;
+			}
+			var email=form1.email.value;
+			var emailcheck=email.indexOf("@");
+			var length2=email.length;
+			var length1=length2-4;
+			if(email=="")
+			{
+				alert("email textfield is empty");
+				flag=0;
+				return false;
+			}
+			if(email.substring(length1,length2)!=".com")
+			{
+				alert("email should have .com in the end");
+				flag=0;
+				return false;
+			}
+			if(emailcheck<0)
+			{
+				alert("wrong email id @ sign missing");
+				flag=0;
+				return false;
+			}
+			if(((email.indexOf("."))-(email.indexOf("@")))<4)
+			{
+				alert("wrong email id");
+				flag=0;
+				return false;
+			}
+			
+			
+			var pin=document.getElementById("pin").value;
+			if(isNaN(pin) || pin.length<6)
+			{
+				alert("pin invalid");
+				return false;
+			}
+			
+			return true;
+		}	
+    </script>
+</head>
+<body>
+	<div class="row menu"><!--row starting-->
+			<div class="col-md-2 text-center">
+				<a href="index.html"><img src="images2\logo.jpg" width="200" height="90"></a>
+			</div>        
+			<div class="col-md-10 text-right">
+				<div class="callofaction">
+				<a href="#Contact_us"><span class="glyphicon glyphicon-envelope">  </span>support@cosmoholic.com
+				<span class="glyphicon glyphicon-phone-alt"> </span> : 022 - 258585858 
+				</div></a>
+				<nav>
+					<ul class="nav navbar-nav text-center">
+						<li><a href="index.html" style="color:black;"><span class="glyphicon glyphicon-home"></span></a></li>
+						<li><a href="login3.html">LOGIN</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="textcolor">
+								COLLECTIONS								
+							<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="eyes.html">Eyes</a></li>
+								<li><a href="lipsticks.html">Lipsticks</a></li>
+								<li><a href="hairs.html">Hairs</a></li>
+								<li><a href="nails.html">Nails</a></li>
+								<li><a href="perfume.html">Perfumes</a></li>
+							
+							</ul>
+						</li>
+						<li><a href="#Winterspecials">WINTER SPECIALS<span class="glyphicon glyphicon-search"></a></li>
+						<li><a href="#About">ABOUT</a></li>
+</ul>
+</nav>
+</div>
+</div><!--row End-->
+<div class="container">
+			<form onsubmit="return validation()" name="form1" method="post" action="form.asp">
+				<div class="row">
+					<div class="col-md-6 text-right">
+						Name:
+					</div>
+					<div class="col-md-6">
+						<input type="text" name="name" placeholder="Name">
+					</div>
+				</div><br>
+				
+				<div class="row">
+					<div class="col-md-6 text-right">
+						Pincode:
+					</div>
+					<div class="col-md-6">
+						<input type="text" name="pin" id="pin" placeholder="Pincode" maxlength="6">
+					</div>
+				</div><br>
+				
+				<div class="row">
+					<div class="col-md-6 text-right">
+						Email:
+					</div>
+					<div class="col-md-6">
+						<input type="text" name="email" placeholder="Email Id">
+					</div>
+				</div><br>
+				
+				<div class="row">
+					<div class="col-md-6 text-right">
+						State:
+					</div>
+					<div class="col-md-6">
+						<input type="text" name="state" placeholder="state">
+					</div>
+				</div><br>
+ 
+				<div class="row">
+					<div class="col-md-6 text-right">
+						City:
+					</div>
+					<div class="col-md-6">
+						<input type="text" name="state" placeholder="state">
+					</div>
+				</div><br>
+ 
+				
+				<div class="row">
+					<div class="col-md-6 text-right">
+						Address:
+					</div>
+					<div class="col-md-6">
+						<input type="text" name="address" placeholder="Address">
+					</div>
+				</div><br>
+				
+				<div class="row">
+					<div class="col-md-6 text-right">
+						LandMark:
+					</div>
+					<div class="col-md-6">
+						<input type="text" name="land" placeholder="Landmark">
+					</div>
+				</div><br>
+				<div class="row">
+					<div class="col-md-6 text-right">
+						<input type="submit" value="submit">
+					</div>
+					<div class="col-md-6">
+						<input type="reset" value="Cancel">
+					</div>
+				</div>
+			</form>
+</div>
+</body>
+</html>
+
+                

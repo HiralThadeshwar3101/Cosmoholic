@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+ 
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+ 
+ <title>Parallax Template - Materialize</title>
+
+  <!-- CSS  -->
+  
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+ 
+ <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+</head>
+<body>
+
+<style>
+	.glyphicon {
+    font-size: 35px;
+}
+  </style>
+<a href="index.html#home"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <span class="glyphicon glyphicon-home "></span></a>
+
+
+<div class="container">
+<div class="jumbotron" style="background-image:url(11.jpg); background-size=100%;">
+ <section id="bor-and">
+            <div class="row text-center">
+                <div class="col-md-12 " style="color: white;">
+
+
+                    <h1>From Borivali-Andheri</h1>
+ <div id="carousel-example" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example" data-slide-to="1"></li>
+                        <li data-target="#carousel-example" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="container center">
+                                <div class="col-md-6 col-md-offset-3 slide-custom">
+                     <br><br><br>   
+                                    <h4><i class="fa fa-quote-left"></i> Vaibhav Singh <i class="fa fa-quote-right"></i></h4>
+                                     <div class="user-img pull-right">
+						<img src="assets/img/p1.jpg" alt="" class="img-u image-responsive"  />
+					</div>
+                                    <h5 class="pull-right"><strong class="c-black">Contact-7738248448 <br>Rs 60</strong></h5>
+                     <br><br><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container center">
+                                <div class="col-md-6 col-md-offset-3 slide-custom">
+                     <br><br><br>
+                                    <h4> <i class="fa fa-quote-left"></i> Raj Shah <i class="fa fa-quote-right"></i></h4>
+                                         <div class="user-img pull-right">
+						<img src="assets/img/user2.png" alt="" class="img-u image-responsive"  />
+					</div>
+                                    <h5 class="pull-right"><strong class="c-black">Contact - 8761349012 <br> Rs 60</strong></h5>
+                      <br><br><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container center">
+                                <div class="col-md-6 col-md-offset-3 slide-custom">
+                        <br><br><br>
+                                    <h4><i class="fa fa-quote-left"></i>Rushabh Rathod <i class="fa fa-quote-right"></i></h4>
+                                        <div class="user-img pull-right">
+						<img src="assets/img/user.gif" alt="" class="img-u image-responsive"  />
+					</div>
+                                    <h5 class="pull-right"><strong class="c-black">Contact - 9321564777 <br> Rs 60</strong></h5>
+<br><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+</div>
+			</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="container" id="home">
+        <div class="row text-center scrollclass">
+            <div class="col-md-12">
+                <a href="#joinus" class="btn btn-primary btn-lg ">Join US</a> 
+<br>
+<br>
+
+            </div>
+        </div>
+    </div>
+
+
+
+<section class="for-full-back color-bg-one" id="joinus">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <form class="col s12" method="post" action="" onsubmit="return valid()" name="form1">
+	  <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate" name="name">
+          <label for="icon_prefix">Name</label>
+        </div>
+		<div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate" name="dname">
+          <label for="icon_prefix"> Dealer Name</label>
+        </div>
+		</div>
+		<div class="row">
+		<div class="input-field col s6">
+		<input id="email" type="email" class="validate" name="email">
+          <label for="email">Email</label> 
+		  </div>
+		  </div>
+		  <div class="row">
+		  <div class="input-field col s6">
+		          
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" type="tel" class="validate" name="mob">
+          <label for="icon_telephone">Phone</label>
+        </div>
+		</div>
+		
+		   
+		<div class="row">
+        <div class="input-field col s12">
+		 <textarea id="textarea1" class="materialize-textarea" name="goadd"></textarea>
+          <label for="textarea1">Going Address</label>
+        </div>
+        </div>
+		<div class="row">
+        <div class="input-field col s12">
+		 <textarea id="textarea1" class="materialize-textarea" name="readd"></textarea>
+          <label for="textarea1">Return Address</label>
+        </div>
+		</div>
+		
+      <input type="checkbox" id="test5" />
+      <label for="test5">Male</label>
+    
+    
+      <input type="checkbox" id="test6">
+      <label for="test6">Female</label>
+<br>
+
+ 
+    <select class="browser-default">
+      <option value="" disabled selected>Select day</option>
+      <option value="1">Monday</option>
+      <option value="2">Tuesday</option>
+      <option value="3">Wednesday</option>
+      <option value="4">Thursday</option>
+      <option value="5">Friday</option>
+      <option value="6">Saturday</option>
+      <option value="7">Sunday</option>
+ </select><br>
+
+
+
+<div class="row">
+<div class="input-field col s6">
+ <input id="gotime" type="text" class="validate" name="gotime">
+          <label for="gotime">Going time</label>
+</div>
+<div class="input-field col s6">
+ <div class="switch">
+    <label>
+      am
+      <input type="checkbox">
+      <span class="lever"></span>
+      pm
+    </label>
+  </div>
+ </div>
+</div>
+<br>
+<div class="row">
+<div class="input-field col s6">
+ <input id="retime" type="text" class="validate" name="retime">
+          <label for="retime">Returning time</label>
+</div>
+<div class="input-field col s6">
+ <div class="switch">
+    <label>
+      am
+      <input type="checkbox">
+      <span class="lever"></span>
+
+      pm
+    </label>
+  </div>
+ </div>
+</div>
+<br><br>
+	
+<div class="row">
+<div class="input-field col s6">
+ Select car        <input class="with-gap" name="group1" type="radio" id="test1"  />
+      <label for="test1">Alto</label>	
+    <input class="with-gap" name="group2" type="radio" id="test2"  />
+      <label for="test2">Swift</label>	
+    <input class="with-gap" name="group3" type="radio" id="test3"  />
+      <label for="test3">BMW</label>	
+    <input class="with-gap" name="group4" type="radio" id="test4"  />
+      <label for="test4">Audi</label>	
+    <input class="with-gap" name="group5" type="radio" id="test5"  />
+      <label for="test5">WagonR</label>	
+    <input class="with-gap" name="group6" type="radio" id="test6"  />
+      <label for="test6">Mercedes</label>	
+</div>
+</div>
+<br><br>
+<button class="btn waves-effect waves-light" type="submit" name="action">Submit</button>&nbsp;&nbsp;
+<button class="btn waves-effect waves-light" type="reset" name="action">Clear</button<br><br>
+</form>
+<br><br><br><br>
+</div>
+<br><br><br><br>
+
+
+
+
+
+
+
+
+
+<script>
+
+function valid()
+{
+	var n=form1.name.value;
+	var d=form1.dname.value;
+	var e=form1.email.value;
+	var m=form1.mob.value;
+	var g=form1.goadd.value;
+	var r=form1.readd.value;
+	var emailcheck=e.indexOf("@");
+	var l2=e.length;
+	var l1=l2-4;
+	var gt=form1.gotime.value;
+	var p=form1.retime.value;
+	
+	
+   var key1 = document.getElementsByName('name')[0];
+   var key2 = document.getElementsByName('dname')[0];
+   var key3 = document.getElementsByName('email')[0];
+   var key4 = document.getElementsByName('mob')[0];
+   var key5 = document.getElementsByName('goadd')[0];
+   var key6 = document.getElementsByName('readd')[0];
+   var key7 = document.getElementsByName('gotime')[0];
+   var key8 = document.getElementsByName('retime')[0];
+  
+	if(n>3||n<20)
+	{
+		alert("invalid first name, no numbers allowed");
+		key1.focus();
+		key1.select();
+		return false;
+	}
+	if(d>3||d<20)
+	{
+		alert("invalid dealer name, no numbers allowed");
+		key2.focus();
+		key2.select();
+		return false;
+	}
+	else if(emailcheck<0)
+	{
+		alert("@ missing in email");
+		key3.focus();
+		key3.select()
+		return false;
+	}
+	else if(e.substring(l1,l2)!=".com")
+	{
+		alert(".com missing in email");
+		key3.focus();
+		key3.select()
+		return false;
+	}
+	else if(((e.indexOf("."))-(e.indexOf("@")))<4)
+	{
+		alert("wrong email id");
+		key3.focus();
+		key3.select()
+		return false;
+	}
+	else if(isNaN(m))
+	{
+		alert("mobile no. invalid");
+		key4.focus();
+		key4.select()
+		return false;
+	}
+	else if(g>0||ug<9)
+	{
+		alert("Enter your address!");
+		key5.focus();
+		key5.select()
+		return false;
+	}
+	else if(r>0||r<9)
+	{
+		alert("Enter your destination address");
+		key6.focus();
+		key6.select()
+		return false;
+	}
+	else if(isNaN(gt))
+	{
+		alert("Enter the time properly!");
+		key7.focus();
+		key7.select() 
+		return false;
+	}
+	else if(isNaN(rt))
+	{
+		alert("Enter your returning time correctly");
+		key8.focus();
+		key8.select()
+		return false;
+	}
+	else
+	{
+		alert("Thanks!Our dealer will contact you!");
+	
+	}	
+
+}
+</script>
+</body>
+</html>
+	
+	
+	
+	

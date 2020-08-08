@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#header {
+    background-color:#2F4F4F;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#headerlow {
+    background-color:#2F4F4F;
+    color:white;
+    text-align:right;
+    padding:1px;
+}
+#nav {
+    line-height:30px;
+    height:525px;
+    width:250px;
+    float:left;
+    padding:5px;
+    text-align:center;	      
+background-image: url("bg3.jpg")
+}
+#section {
+    height:515px;
+    width:1050px;
+    float:left;
+    padding:10px;
+     background-color: 	#DEB887;	 	 
+	background-image: url("bg3.jpg");
+}
+#footer {
+    background-color:#2F4F4F;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+.boxed{
+	border :1px solid black;
+}
+.examplecursive {
+    font-family: cursive;
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+<div class="examplecursive">
+<h1>Online Admission for Colleges</h1>
+</div>
+</div>
+
+<div id="headerlow">
+
+</div>
+
+<div id="nav">
+<table align="center" style="width:100%" bgcolor="#606060">
+	<tr onmouseover="ChangeBackgroundColor(this)" onmouseout="RestoreBackgroundColor(this)">
+	<td><h3><a href="try.html" style="text-decoration:none;color:white">Home</a><br></h3></td>
+	</tr>
+	</table>&nbsp
+	<table align="center" style="width:100%" bgcolor="#606060">
+	<tr onmouseover="ChangeBackgroundColor(this)" onmouseout="RestoreBackgroundColor(this)">
+	<td>
+		<a href="loginpro.html" style="text-decoration:none;color:white"><h3>Login<br></h3></a></td>
+	</tr>
+	</table>&nbsp
+	<table align="center" style="width:100%" bgcolor="#606060">
+	<tr onmouseover="ChangeBackgroundColor(this)" onmouseout="RestoreBackgroundColor(this)">
+	<td>
+	<h3>Cut offs<br></h3></td>
+	</tr>
+	</table>&nbsp
+	<table align="center" style="width:100%" bgcolor="#606060">
+	<tr onmouseover="ChangeBackgroundColor(this)" onmouseout="RestoreBackgroundColor(this)">
+	<td>
+	<h3>Colleges<br></h3></td>
+	</tr>
+	</table>&nbsp
+<table align="center" style="width:100%" bgcolor="#606060">
+	<tr onmouseover="ChangeBackgroundColor(this)" onmouseout="RestoreBackgroundColor(this)">
+	<td>
+	<a href="validsignup.html" style="text-decoration:none;color:white"><h3>Your Profile<br></h3></td>
+	</tr>
+	</table>
+</div>
+
+<div id="section">
+
+<p>
+<form action="loginpro.asp" method="post" name="form1">
+<div align="center">
+	&nbsp&nbsp&nbsp<div face="calibri" style="width:300px;height:300px;border:0.5px solid #000;background-color: #BC8F8F" >
+<font size="4" ><h2>Login</h2></font>
+<b>Already a user?<br></b>
+<b>User Name:<input type="text" name="uname" required></b><br>
+<b><br>Password:&nbsp&nbsp&nbsp<input type="text" name="pass" required><br></b>
+<br>
+<input type="submit" name="submit" value="submit">
+&nbsp&nbsp&nbsp<input type="reset" name="reset" value="Clear"><br><br><br>
+<b>Create username and password <a href="invalidpro.html">register</a></b>
+	</div>
+</div>
+</form>
+</p>
+</div>
+
+<div id="footer">
+<h3>Feedback</h3>
+</div>
+<script type="text/javascript">
+
+var TableBackgroundNormalColor = "#606060";
+var TableBackgroundMouseoverColor = "#2F4F4F";
+
+function ChangeBackgroundColor(row) { row.style.backgroundColor = TableBackgroundMouseoverColor; }
+function RestoreBackgroundColor(row) { row.style.backgroundColor = TableBackgroundNormalColor; }
+</script>
+</body>
+</html>
